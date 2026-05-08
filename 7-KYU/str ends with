@@ -1,0 +1,24 @@
+//Complete the solution so that it returns true if the first argument(string) 
+//passed in ends with the 2nd argument (also a string).
+
+//Examples:
+//Inputs: "abc", "bc"
+//Output: true
+//Inputs: "abc", "d"
+//Output: false
+
+//PREP
+// if First "str" includes 2 "str" true if not false
+//P: ! num, boolean, function
+//R: return
+//E: solution(str) //true or false
+//P: conditonal 
+ // return
+function solution(str, ending){
+  return str.endsWith(ending);
+  //if(str.endsWith(ending)){
+  //  return true
+  //}else{
+    //return false  
+}
+
