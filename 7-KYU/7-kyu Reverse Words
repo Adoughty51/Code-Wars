@@ -1,0 +1,20 @@
+Complete the function that accepts a string parameter, and reverses each word in the string. 
+All spaces in the string should be retained.
+
+Examples
+"This is an example!" ==> "sihT si na !elpmaxe"
+"double  spaces"      ==> "elbuod  secaps"
+
+// str return reverse str
+// str ! num boolean function
+// return
+
+function reverseWords(str) {
+  // split str 
+  // split word in str
+  // reverse 
+  // return
+  return str.split(' ').map(word => word.split('').reverse().join('')).join(' ');
+}
+
+reverseWords('This is my test') // return siht si ym tset
