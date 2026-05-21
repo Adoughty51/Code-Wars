@@ -1,0 +1,42 @@
+//Consider an array/list of sheep where some sheep may be missing from their place.
+//We need a function that counts the number of sheep present in the array (true means present).
+//
+//For example,
+//
+//[true,  true,  true,  false,
+//  true,  true,  true,  true ,
+//  true,  false, true,  false,
+//  true,  false, false, true ,
+//  true,  true,  true,  true ,
+//  false, false, true,  true]
+//The correct answer would be 17.
+
+// arr ! boolean function
+// return
+// function countSheep(sheep){
+//let count = 0
+//for(let 1 = 0; i < sheep.length; i++){
+//  if(sheep[i] === true){
+//    count++;
+//  }
+//}
+//  return count;
+//}
+//sheep([true, true, false])
+// returns 2
+//returns [true, true, true]
+// Start count at 0 then loop through the sheep in arr starting at 0
+// if current sheep is true increment count
+// return count
+
+function countSheeps(sheep) {
+ let count = 0
+ for(let i = 0; i < sheep.length; i++){
+   if(sheep[i] === true){
+   count++;
+   }
+ }
+   
+  return count;
+}
+
